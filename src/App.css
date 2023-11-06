@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+.contact{ 
+  padding: 25px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contact{
+  margin-right: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.header{
+  
+  display: flex ;
+  background-color: gray;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.header{
+  margin-right: auto;
+  height: auto;
+  font-size: 10px;
 }
+ .footer{
+  padding: 25px;
+  margin-right: 20px;
+ }
+ .nav{
+  display: flex;
+  background-color: green;
+  color: black;
+ }
+ .photo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: green;
+ }
+ .photo{
+   display: flex 20px;
+   margin-right: 100CM;
+ }
+ .Swamiji.jpg{
+  align-self: center;
+ }
+ .Second{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .First{
+  display: flex;
+  justify-content:last baseline;
+  align-items: left;
+ 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ }
+ 
